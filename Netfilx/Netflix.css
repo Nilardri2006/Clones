@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins, sans-serif;
+}
+body{
+    background-color: rgb(24, 19, 19);
+}
+nav{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+}
+logo{
+    margin-top:15px;
+    margin-left:10px;
+}
+nav ul{
+    list-style:none;
+    display:inline-flex;
+    gap: 5px;
+    
+}
+li1{
+    border:3px solid  rgb(251, 249, 249);
+    border-radius: 45px;
+    padding:10px 20px 10px 20px;    
+    background: #000;
+    color:white;
+    font-weight: bold;
+}
+li2{
+    border:1px solid  rgb(253, 251, 251);
+    background-color: white;
+    color:black;
+    font-weight: bold;
+    border-radius: 45px;
+    padding:3px 20px 8px 20px;
+    margin:13px 20px 8px 6px;
+    font-size: 13px;   
+}
+.container{
+    background-image: url("Assets/images/bg.jpg");
+    height:50vw;
+    margin:10px 40px 20px 40px;
+    border:5px rgb(239, 234, 234);
+    box-shadow: 5px 5px 15px 5px #292727;;
+    border-radius: 15px;
+    /* position:relative; */
+    background-color: #292727;
+}
+.bg{
+    height:50vw;
+    margin:10px 40px 20px 40px;
+    border:5px rgb(239, 234, 234);
+    border-radius: 15px;
+    /* position:relative; */
+    background-color: #292727;
+    opacity: 0.5;
+}
+
+
+.headings{
+    position:absolute;
+    color: white;
+    border:2px solid white;
+    margin-right: 35%;
+    margin-left: 40px;
+    margin-top:20%;
+
+}
+.unlimited>h1{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.unlimited>p1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+  }
+  
+  .email-input {
+    padding: 15px 20px;
+    border: none;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 16px;
+    flex: 1;
+    max-width: 300px;
+    outline: none;
+  }
+  
+  .email-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .cta-button {
+    padding: 15px 25px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #b4060c;
+  }
